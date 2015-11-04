@@ -1,0 +1,8 @@
+include mixins.jade
+  
+form(id="registration" action="" method="post")
+  +field("text", "username", "Username")
+  +field("email", "email", "email")
+  +field("password", "password", "Password")
+  +field("password", "password2", "Repeat your password")
+  button(type="submit" id="submit" class="btn btn-default") Submit

@@ -1,0 +1,16 @@
+{
+  "name": "ExpressApp",
+  "version": "0.0.1",
+  "description": "A Node.js App using express",
+  "dependencies": {
+  	"express": "4.8.x",
+    "jade": "1.11.0",
+  	"LiveScript":"1.2.x",
+    "orm":"2.1.x",
+    "crypto-js": "3.1.x",
+    "node-gyp":"3.0.x",
+    "mysql": "2.0.x",
+    "body-parser": "1.14.1"
+   },
+  "engine": "node >=0.10.x"
+}

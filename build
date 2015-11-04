@@ -1,0 +1,9 @@
+#lsc -o "../static" -cd client/*.ls
+
+lsc -o static -c client/*.ls
+
+#lsc tests/*.ls
+
+
+pkill node
+lsc server/server.ls
