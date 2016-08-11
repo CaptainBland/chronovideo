@@ -47,7 +47,6 @@ export connect = (f)->
   export Video = db.define("video", {
     url: String
 
-    #it's a chubby man's flaccid penis!
     },{
     validations:
         url:
